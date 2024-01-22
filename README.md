@@ -19,4 +19,5 @@ Create a class Book that contains four members: name,  author, price, and num_pa
 members. Include methods to set and get the details of the objects. Include a  toString( ) method that could display the complete details of the book. Develop  a Java program to create n book objects.
 
 04) Student Information
+   
 05)Quadratic  
