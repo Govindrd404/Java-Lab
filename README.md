@@ -20,4 +20,4 @@ members. Include methods to set and get the details of the objects. Include a  t
 
 04) Student Information
    
-05)Quadratic  
+5) Quadratic  
