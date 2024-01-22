@@ -18,6 +18,10 @@ Develop a Java program to create an abstract class named Shape that contains two
 Create a class Book that contains four members: name,  author, price, and num_pages. Include a constructor to set the values for the 
 members. Include methods to set and get the details of the objects. Include a  toString( ) method that could display the complete details of the book. Develop  a Java program to create n book objects.
 
-04) Student Information
+04) Student Information-
+Develop a Java program to create a class Student with members usn, name, an array  credits and an array marks. Include methods to accept and display details and a 
+method to calculate SGPA of a student.
    
-5) Quadratic  
+6) Quadratic-
+Develop a Java program that prints all real solutions to the quadratic equation ax2+bx+c  = 0. Read in a, b, c and use the quadratic formula. If the discriminate b2
+-4ac is negative,  display a message stating that there are no real solutions. 
