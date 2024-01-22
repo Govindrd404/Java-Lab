@@ -17,3 +17,6 @@ Develop a Java program to create an abstract class named Shape that contains two
 03) Book.java-
 Create a class Book that contains four members: name,  author, price, and num_pages. Include a constructor to set the values for the 
 members. Include methods to set and get the details of the objects. Include a  toString( ) method that could display the complete details of the book. Develop  a Java program to create n book objects.
+
+04) Student Information
+05)Quadratic  
