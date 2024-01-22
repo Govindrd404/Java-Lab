@@ -13,3 +13,7 @@ Check for the minimum balance, impose penalty if necessary and update the balanc
 
 2) Shape.java-
 Develop a Java program to create an abstract class named Shape that contains two integers and an empty method named printArea( ). Provide three classes named Rectangle, Triangle and Circle such that each one of the classes extends the class Shape. Each one of the classes contain the method printArea( ) that prints the area of the given shape.
+
+03) Book.java-
+Create a class Book that contains four members: name,  author, price, and num_pages. Include a constructor to set the values for the 
+members. Include methods to set and get the details of the objects. Include a  toString( ) method that could display the complete details of the book. Develop  a Java program to create n book objects.
