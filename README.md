@@ -16,17 +16,17 @@ d)Permit withdrawal and update the balance
 Check for the minimum balance, impose penalty if necessary and update the balance.
 
 
-3) Shape.java-
+02) Shape.java-
 Develop a Java program to create an abstract class named Shape that contains two integers and an empty method named printArea( ). Provide three classes named Rectangle, Triangle and Circle such that each one of the classes extends the class Shape. Each one of the classes contain the method printArea( ) that prints the area of the given shape.
 
-4) Book.java-
+03) Book.java-
 Create a class Book that contains four members: name,  author, price, and num_pages. Include a constructor to set the values for the 
 members. Include methods to set and get the details of the objects. Include a  toString( ) method that could display the complete details of the book. Develop  a Java program to create n book objects.
 
-5) Student Information-
+04) Student Information-
 Develop a Java program to create a class Student with members usn, name, an array  credits and an array marks. Include methods to accept and display details and a 
 method to calculate SGPA of a student.
    
-6) Quadratic-
+05) Quadratic-
 Develop a Java program that prints all real solutions to the quadratic equation ax2+bx+c  = 0. Read in a, b, c and use the quadratic formula. If the discriminate b2
 -4ac is negative,  display a message stating that there are no real solutions. 
