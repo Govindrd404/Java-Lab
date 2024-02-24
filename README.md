@@ -32,6 +32,9 @@ Develop a Java program that prints all real solutions to the quadratic equation 
 -4ac is negative,  display a message stating that there are no real solutions.
  
 
-06)Exception Handling (Exception_Handling.java)
+06) Exception Handling (Exception_Handling.java)
 Write a program that demonstrates handling of exceptions in inheritance tree. Create a base class called “Father” and derived class called “Son” which extends the base class. In Father class, implement a constructor which takes the age and throws the exception WrongAge( ) when the input age<=0. In Son class, implement a constructor that cases both father and son’s age and throws an exception if son’s age is >=father’s age.
+
+07) Multi_Threading.java
+   Write a program which creates two threads, one thread displaying “BMS College of Engineering” once every ten seconds and another displaying “CSE” once every two seconds.
 
