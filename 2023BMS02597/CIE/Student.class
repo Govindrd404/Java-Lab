@@ -1,0 +1,11 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package CIE;
+
+public class Student {
+   public String usn;
+   public String name;
+   public int sem;
+
+   public Student() {
+   }
+}

@@ -1,0 +1,77 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import CIE.Internals;
+import SEE.External;
+import java.util.Scanner;
+
+public class Main {
+   public Main() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.print("Enter the number of students: ");
+      int var2 = var1.nextInt();
+      Internals[] var3 = new Internals[var2];
+      External[] var4 = new External[var2];
+
+      int var5;
+      int var6;
+      for(var5 = 0; var5 < var2; ++var5) {
+         var3[var5] = new Internals();
+         System.out.println("Enter details for CIE of Student " + (var5 + 1) + ":");
+         System.out.print("USN: ");
+         var3[var5].usn = var1.next();
+         System.out.print("Name: ");
+         var3[var5].name = var1.next();
+         System.out.print("Semester: ");
+         var3[var5].sem = var1.nextInt();
+         System.out.println("Enter Internal Marks for 5 courses:");
+
+         for(var6 = 0; var6 < 5; ++var6) {
+            System.out.print("Course " + (var6 + 1) + ": ");
+            var3[var5].internalMarks[var6] = var1.nextInt();
+         }
+      }
+
+      for(var5 = 0; var5 < var2; ++var5) {
+         var4[var5] = new External();
+         System.out.println("Enter details for SEE of Student " + (var5 + 1) + ":");
+         System.out.print("USN: ");
+         var4[var5].usn = var1.next();
+         System.out.print("Name: ");
+         var4[var5].name = var1.next();
+         System.out.print("Semester: ");
+         var4[var5].sem = var1.nextInt();
+         System.out.println("Enter External Marks for 5 courses:");
+
+         for(var6 = 0; var6 < 5; ++var6) {
+            System.out.print("Course " + (var6 + 1) + ": ");
+            var4[var5].seeMarks[var6] = var1.nextInt();
+         }
+      }
+
+      System.out.println("\nFinal Marks of Students:");
+
+      for(var5 = 0; var5 < var2; ++var5) {
+         System.out.println("Student " + (var5 + 1) + ":");
+         System.out.println("USN: " + var3[var5].usn);
+         System.out.println("Name: " + var3[var5].name);
+         System.out.println("Semester: " + var3[var5].sem);
+         System.out.println("CIE Marks:");
+
+         for(var6 = 0; var6 < 5; ++var6) {
+            System.out.println("Course " + (var6 + 1) + ": " + var3[var5].internalMarks[var6]);
+         }
+
+         System.out.println("SEE Marks:");
+
+         for(var6 = 0; var6 < 5; ++var6) {
+            System.out.println("Course " + (var6 + 1) + ": " + var4[var5].seeMarks[var6]);
+         }
+
+         System.out.println();
+      }
+
+      var1.close();
+   }
+}

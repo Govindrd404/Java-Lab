@@ -1,0 +1,11 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package SEE;
+
+import CIE.Student;
+
+public class External extends Student {
+   public int[] seeMarks = new int[5];
+
+   public External() {
+   }
+}
