@@ -15,6 +15,8 @@ Create a class Account that stores customer name, account number and type of acc
 
 Check for the minimum balance, impose penalty if necessary and update the balance.
 
+File Location Bank.java
+
 
 02) Shape.java-
 Develop a Java program to create an abstract class named Shape that contains two integers and an empty method named printArea( ). Provide three classes named Rectangle, Triangle and Circle such that each one of the classes extends the class Shape. Each one of the classes contain the method printArea( ) that prints the area of the given shape.
