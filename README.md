@@ -30,3 +30,6 @@ method to calculate SGPA of a student.
 05) Quadratic-
 Develop a Java program that prints all real solutions to the quadratic equation ax2+bx+c  = 0. Read in a, b, c and use the quadratic formula. If the discriminate b2
 -4ac is negative,  display a message stating that there are no real solutions. 
+
+06)Exception Handling-
+Write a program that demonstrates handling of exceptions in inheritance tree. Create a base class called “Father” and derived class called “Son” which extends the base class. In Father class, implement a constructor which takes the age and throws the exception WrongAge( ) when the input age<=0. In Son class, implement a constructor that cases both father and son’s age and throws an exception if son’s age is >=father’s age.
